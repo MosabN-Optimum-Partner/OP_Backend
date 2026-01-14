@@ -1,4 +1,4 @@
-import pytest
+import pytest # type: ignore
 from app import create_app
 from app.controllers import book_controller as bc
 from app.utils.constants import STATUS

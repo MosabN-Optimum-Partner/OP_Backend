@@ -1,4 +1,4 @@
-import pytest
+import pytest # type: ignore
 from app import create_app
 from app.controllers import library_controller as lc
 from app.utils.constants import STATUS as status
